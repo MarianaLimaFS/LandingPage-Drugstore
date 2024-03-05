@@ -6,7 +6,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-/*formulário*/
+
 #desc{
     background: linear-gradient(rgba(4, 194, 33, 0.7), rgba(30, 95, 5, 0.7)), url('../images/farmacia.jpg');
     background-position: center;
@@ -21,17 +21,128 @@
     text-shadow: 2px 2px 2px green;
     display: flex;
     position: relative;
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: 700;
+   
+
 }
-#saude{
+.contexto p{
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 5px 2px 5px green;
+    margin-top: .3em;
+}
+.contexto span{
+    color: rgb(219, 255, 219);
+    text-shadow: 1px 1px 2px rgb(255, 8, 8);
     
 }
 .contexto img{
     display: flex;
-    width: 120px;
+    width: 180px;
     filter: drop-shadow(5px 5px 5px white);
     position: absolute;
-    left: 150px;
-    top: 225px;
+    left: 330px;
+    top: 200px;
    
+}
+/*formulario*/
+.form{
+    background-color: rgb(177, 255, 170);
+    padding: 2em;
+    height: 350px;
+    max-width: 22%;
+    border-radius: 5px;
+   
+}
+.form p{
+    text-align: left;
+    font-size: 1em;
+    margin-bottom: 1em;
+    color: rgb(1, 41, 1);
+    font-weight: bold;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: .8em;
+}
+.form-group label{
+    color: rgb(109, 145, 109);
+    margin-bottom: .3em;
+    font-weight: bold;
+}
+.form-group input, .form-group select{
+    padding: 6px 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+.btn{
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    width: 100%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: .8;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.btn:hover{
+    background-color: rgb(255, 255, 255);
+    color: green;
+    border: 1px solid green;
+    box-shadow: 2px 2px 5px green;
+}
+
+/*sobre*/    
+
+.sobre h2{
+    text-align: center;
+    font-size: 2em;
+    padding: 20px;
+    color: rgb(1, 41, 1);
+    font-weight: 500;
+}
+.img-sobre{
+    display: flex;
+    position: relative;
+    
+}
+.img-sobre img{
+    width: 200px; 
+    border-radius: 30px;
+    
+}
+#img1, #img2, #img3{
+    display: flex;
+    position: absolute;
+    filter: drop-shadow(5px 5px 5px green);
+}
+#img2{
+    top: 20px;
+    left: 200px;
+    height: 270px;
+}
+#img3{
+    top: 50px;
+    left: 110px;
+}
+.sobre-farma {
+    display: flex;
+    position: relative;
+}
+.sobre-farma p{
+    display: flex;
+    text-align: justify;
+    background-color: rgb(177, 255, 170);
+    position: absolute;
+    left: 500px;
+    width: 50%;
+    justify-content: center;
+    font-weight: 400;
+    
 }

@@ -204,7 +204,7 @@
 /*local*/
 #local{
     height: 400px;
-    background: linear-gradient(rgba(8, 70, 18, 0.692), rgba(72, 105, 58, 0.527)), url('/images/farmacia-capa-2.jpg');
+    background: linear-gradient(rgba(8, 70, 18, 0.692), rgba(72, 105, 58, 0.527)), url('../images/farmacia-capa-2.jpg');
     display: flex;
     align-items: center;
     justify-content: space-around;

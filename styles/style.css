@@ -23,7 +23,6 @@
     position: relative;
     font-size: 3em;
     font-weight: 700;
-   
 
 }
 .contexto p{
@@ -114,6 +113,7 @@
 .img-sobre{
     display: flex;
     position: relative;
+    
    
     
 }
@@ -153,7 +153,7 @@
     background-color: rgb(206, 255, 202);
     position: absolute;
     left: 600px;
-    width: 40%;
+    width: 50%;
     justify-content: center;
     font-weight: 400;
     line-height: 1.5em;
@@ -163,9 +163,16 @@
 }
 /*produtos*/
 #produtos{
-    width: 80%;
+    width: 100%;
+    padding: 80px;
     margin: 0 auto;
-    margin-top: 40px;
+    background-color: rgba(198, 245, 167, 0.397);
+}
+#produtos h1{
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 2em;
 }
 .produtos{
     display: flex;
@@ -327,3 +334,5 @@ button:hover{
     opacity: 1;
     background-color: rgb(213, 252, 213);
 }
+
+

@@ -11,7 +11,7 @@
     background: linear-gradient(rgba(4, 194, 33, 0.7), rgba(30, 95, 5, 0.7)), url('../images/farmacia.jpg');
     background-position: center;
     background-size: cover;
-    height: 85vh;
+    height: 98vh;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -42,8 +42,8 @@
     width: 180px;
     filter: drop-shadow(5px 5px 5px white);
     position: absolute;
-    left: 330px;
-    top: 200px;
+    left: 315px;
+    top: 240px;
    
 }
 /*formulario*/
@@ -51,9 +51,9 @@
     background-color: rgb(177, 255, 170);
     padding: 2em;
     height: 350px;
-    max-width: 22%;
+    max-width: 25%;
     border-radius: 5px;
-   
+   box-shadow: 5px 5px 5px green;
 }
 .form p{
     text-align: left;
@@ -99,50 +99,231 @@
 }
 
 /*sobre*/    
-
+.hist-farmacia{
+    height: 85vh;
+    background-color: rgba(198, 245, 167, 0.397);
+}
 .sobre h2{
     text-align: center;
     font-size: 2em;
     padding: 20px;
     color: rgb(1, 41, 1);
     font-weight: 500;
+    
 }
 .img-sobre{
     display: flex;
     position: relative;
+   
     
 }
 .img-sobre img{
     width: 200px; 
     border-radius: 30px;
     
+    
 }
 #img1, #img2, #img3{
     display: flex;
     position: absolute;
     filter: drop-shadow(5px 5px 5px green);
+    padding-bottom: 50px;
+}
+#img1{ 
+    left: 100px;
 }
 #img2{
     top: 20px;
-    left: 200px;
+    left: 300px;
     height: 270px;
 }
 #img3{
     top: 50px;
-    left: 110px;
+    left: 190px;
 }
 .sobre-farma {
     display: flex;
     position: relative;
+    
 }
 .sobre-farma p{
     display: flex;
     text-align: justify;
-    background-color: rgb(177, 255, 170);
+    text-indent: 1em;
+    background-color: rgb(206, 255, 202);
     position: absolute;
-    left: 500px;
-    width: 50%;
+    left: 600px;
+    width: 40%;
     justify-content: center;
     font-weight: 400;
+    line-height: 1.5em;
+    padding: 50px;
+    border-radius: 10px;
+    border: 2px solid green;
+}
+/*produtos*/
+#produtos{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.produtos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 5%;
+    margin-bottom: 4em;
+}
+.produtos img{
+    width: 300px;
+    border-radius: 150px;
+    filter: drop-shadow(5px 5px 5px green);
+}
+
+.produtos h3{
+    color: rgb(1, 41, 1);
+    margin-bottom: 1em;
+    text-align: justify;
+}
+.produtos p{
+    margin-bottom: 1em;
+    font-size: 1.1em;
+    color: rgb(1, 41, 1);
+    font-weight: 400;
+    text-align: justify;
+    text-indent: 1em;
+}
+
+/*local*/
+#local{
+    height: 400px;
+    background: linear-gradient(rgba(8, 70, 18, 0.692), rgba(72, 105, 58, 0.527)), url('/images/farmacia-capa-2.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    background-size: cover;
     
+}
+
+
+#endereco,#horario{
+    max-width: 40%;
+}
+#endereco{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 80px;
+    background-color: rgba(163, 223, 114, 0.733);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+#endereco span{
+    font-size: 2em;
+    margin-right: 0.5em;
+    
+}
+#endereco h3{
+    font-size: 1.8em;
+}
+.bi-geo-alt-fill{
+    display: flex;
+    position: absolute;
+    right: 180px;
+    top: 80px;
+}
+.bi-whatsapp{
+    display: flex;
+    position: absolute;
+    right: 80px;
+    top: 120px;
+}
+.bi-telephone{
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 170px;
+    
+}
+
+#endereco p{
+    margin-top: 5px;
+    font-weight: 500;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+#horario{
+    display: flex;
+    flex-direction: column;
+    margin-left: 350px;
+    position: relative;
+    background-color: rgba(163, 223, 114, 0.733);
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid;
+}
+#horario span{
+    font-size: 2em;
+    margin-right: 0.5em;
+}
+#horario p{
+    margin-top: 5px;
+    font-weight: 500;
+    line-height: 2em;
+    font-size: 1.2em;
+}
+#horario h3{
+    font-size: 1.8em;
+}
+.bi-clock-fill{
+    display: flex;
+    position: absolute;
+    right: 120px;
+    top: 85px;
+    
+}
+#final{
+height: 70px;
+background-color: rgb(91, 131, 75);
+display: flex;
+align-items: center;
+justify-content: space-around;
+color: white;
+background-size: cover;
+
+
+}
+#final h3{
+    font-size: 1.3em;
+    text-shadow: 2px 2px 2px green;
+    
+}
+#final p{
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    margin-right: 40px;
+    text-shadow: 1px 1px 1px green;
+    
+    
+
+}
+#final button{
+    display: flex;
+    position: absolute;
+    right: 20px;
+    padding: 5px;
+}
+button{
+    background-color: rgb(219, 255, 219);
+    border: 1px solid green;
+    color: green;
+    font-weight: 600;
+    opacity: .8;
+}
+button:hover{
+    opacity: 1;
+    background-color: rgb(213, 252, 213);
 }
